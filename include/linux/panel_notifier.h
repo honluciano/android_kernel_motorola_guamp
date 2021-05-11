@@ -26,6 +26,7 @@ enum panel_event {
 
 #ifdef CONFIG_PANEL_NOTIFICATIONS
 
+<<<<<<< HEAD
 #define MAX_PANEL_IDX 2
 enum touch_panel_id {
 	TOUCH_PANEL_IDX_PRIMARY = 0,
@@ -37,6 +38,11 @@ int panel_unregister_notifier(struct notifier_block *nb);
 int panel_notify(unsigned int event, void *data);
 int touch_set_state(int state, int panel_idx);
 int check_touch_state(int *state, int panel_idx);
+=======
+int panel_register_notifier(struct notifier_block *nb);
+int panel_unregister_notifier(struct notifier_block *nb);
+int panel_notify(unsigned int event, void *data);
+>>>>>>> 9b005bfa4d3a31d17cdb947574b4a66187a896b3
 
 #else
 
@@ -53,6 +59,7 @@ static inline int panel_notify(unsigned int event, void *data)
 {
 	return -ENOSYS;
 }
+<<<<<<< HEAD
 static inline int touch_set_state(int state, int panel_idx);
 {
 	return -ENOSYS;
@@ -62,6 +69,8 @@ static inline int check_touch_state(int *state, int panel_idx);
 	return -ENOSYS;
 }
 
+=======
+>>>>>>> 9b005bfa4d3a31d17cdb947574b4a66187a896b3
 
 #endif
 #endif
