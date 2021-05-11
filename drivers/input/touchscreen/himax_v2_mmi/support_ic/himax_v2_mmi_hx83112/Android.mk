@@ -18,4 +18,3 @@ LOCAL_MODULE := himax_v2_mmi_hx83112.ko
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(HIMAX_MMI_IC_MODULE_PATH)
 LOCAL_REQUIRED_MODULES := himax_v2_mmi.ko
-include $(DLKM_DIR)/AndroidKernelModule.mk

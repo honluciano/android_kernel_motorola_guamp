@@ -9,5 +9,4 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := stmvl53l1.ko
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/AndroidKernelModule.mk
 

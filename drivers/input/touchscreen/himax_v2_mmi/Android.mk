@@ -30,6 +30,5 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := himax_v2_mmi.ko
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(HIMAX_MMI_MODULE_PATH)
-include $(DLKM_DIR)/AndroidKernelModule.mk
 
 include $(call first-makefiles-under,$(LOCAL_PATH))

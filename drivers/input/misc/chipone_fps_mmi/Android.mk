@@ -5,5 +5,4 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := fpsensor_spi_tee.ko
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/AndroidKernelModule.mk
 

@@ -14,4 +14,3 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := chipone_tddi_mmi.ko
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(CHIPONE_MMI_MODULE_PATH)
-include $(DLKM_DIR)/AndroidKernelModule.mk

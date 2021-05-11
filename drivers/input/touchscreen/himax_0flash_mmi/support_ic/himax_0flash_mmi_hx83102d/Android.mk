@@ -17,4 +17,3 @@ LOCAL_MODULE := himax_0flash_mmi_hx83102d.ko
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(HIMAX_MMI_IC_MODULE_PATH)
 LOCAL_REQUIRED_MODULES := himax_0flash_mmi.ko
-include $(DLKM_DIR)/AndroidKernelModule.mk
